@@ -1,0 +1,74 @@
+*{
+    margin: 0; padding: 0;
+    box-sizing: content-box;
+
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: palevioletred;
+}
+.mainBody{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 550px;
+    flex-direction: column;
+    border: 3px solid white;
+    border-radius: 15px;
+    box-shadow: 3px 3px 10px 5px rgba(255, 255, 255, 0.4);
+    overflow: hidden;
+}
+.resultArea{
+    width: 360px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14pt;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 0 0 rgba(0, 0, 0, 0.8);
+    overflow: hidden;
+}
+.resultArea:valid{
+    background-color: red;
+}
+button{
+    width: 63px;
+    height: 70px;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 0 0 rgba(0, 0, 0, 0.8);
+    margin: 3px;
+    transition: transform 0.2s ease;
+    font-size: 14pt;
+    vertical-align: middle;
+    overflow: hidden;
+    text-align: center;
+}
+button:hover{
+    transform: scale(1.03);
+    box-shadow: 2px 2px 0 0 rgba(16, 118, 0, 0.8);
+}
+.button_CE{
+    background-color: rgb(250, 135, 135);
+    color: white;
+}
+.button_CE:active{
+    background-color: red;
+    color: white;
+}
+.button_point {
+    font-size: 30pt;
+}
+button:active{
+    background-color: rgb(14, 103, 1);
+    color: white;
+}
